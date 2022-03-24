@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627956196104",
+    "project_id": "spares-app-15524",
+    "storage_bucket": "spares-app-15524.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627956196104:android:dc8acc0813e8d5b73a42bd",
+        "android_client_info": {
+          "package_name": "com.example.spares_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627956196104-jilg0tdkj7ppaptv15o0ogtfiikajb4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZW1QLPelYKeTFHPnvT2q3Xrq2gojclNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627956196104-jilg0tdkj7ppaptv15o0ogtfiikajb4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

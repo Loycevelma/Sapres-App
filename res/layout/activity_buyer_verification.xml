@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Buyer.ActivityBuyerVerification">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="422dp"
+        android:layout_height="83dp"
+        android:background="#B3AA0909"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/tvverifyCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=" User Verification"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+
+    <TextView
+        android:id="@+id/tvcode"
+        android:layout_width="262dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:text="A 5 digit code has been sent to your phone .Enter it below to continue"
+        android:textColor="#0C0B0B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/tvresend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="156dp"
+        android:text="Resend Code"
+        android:textColor="#B3AA0909"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCodee4" />
+
+    <Button
+        android:id="@+id/btnverify"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#B3AA0909"
+        android:text="Verify"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvresend" />
+
+    <EditText
+        android:id="@+id/etCodee3"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="5dp"
+        android:background="#C36969"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/etCodee4"
+        app:layout_constraintStart_toEndOf="@+id/etCodee2"
+        app:layout_constraintTop_toBottomOf="@+id/tvcode" />
+
+    <EditText
+        android:id="@+id/etCodee4"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="5dp"
+        android:background="#C36969"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/etName5"
+        app:layout_constraintStart_toEndOf="@+id/etCodee3"
+        app:layout_constraintTop_toBottomOf="@+id/tvcode" />
+
+    <EditText
+        android:id="@+id/etName5"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="5dp"
+        android:background="#C36969"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etCodee4"
+        app:layout_constraintTop_toBottomOf="@+id/tvcode" />
+
+    <EditText
+        android:id="@+id/etCodee2"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="5dp"
+        android:background="#C36969"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/etCodee3"
+        app:layout_constraintStart_toEndOf="@+id/etCodee1"
+        app:layout_constraintTop_toBottomOf="@+id/tvcode" />
+
+    <EditText
+        android:id="@+id/etCodee1"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="5dp"
+        android:background="#C36969"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/etCodee2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
